@@ -1,0 +1,74 @@
+﻿<!--    Copyright 2020. Huawei Technologies Co., Ltd. All rights reserved.
+
+        Licensed under the Apache License, Version 2.0 (the "License");
+        you may not use this file except in compliance with the License.
+        You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+        Unless required by applicable law or agreed to in writing, software
+        distributed under the License is distributed on an "AS IS" BASIS,
+        WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+        See the License for the specific language governing permissions and
+        limitations under the License. 
+-->
+<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+	<attr path="/api/package[@name='com.huawei.hms.analytics']/class[@name='abc']" name="name">abcPartial5</attr>
+	<attr path="/api/package[@name='com.huawei.hms.analytics.abc']/class[@name='abc']" name="name">abcPartial6</attr>
+	<!--<attr path="/api/package[@name='com.huawei.hms.analytics.abc.abc']/class[@name='abc']" name="name">abcabcabcPartial</attr>-->
+
+	<add-node path="/api/package[@name='com.huawei.hms.analytics.abc.abc']/class[@name='abc']">
+		<method name="BuildClient" return="Java.Lang.Object" visibility="public override" >
+			<parameter name="p1" type="Context"></parameter>
+			<parameter name="p2" type="ClientSettings"></parameter>
+			<parameter name="p3" type="BaseHmsClient.IOnConnectionFailedListener"></parameter>
+			<parameter name="p4" type="BaseHmsClient.IConnectionCallbacks"></parameter>
+		</method>
+	</add-node>
+
+	<add-node path="/api/package[@name='com.huawei.hms.analytics.abc.abc']/class[@name='efg']">
+		<method name="DoExecute" return="void" visibility="protected override" >
+			<parameter name="p1" type="Java.Lang.Object"></parameter>
+			<parameter name="p2" type="IResponsErrorCode"></parameter>
+			<parameter name="p3" type="string"></parameter>
+			<parameter name="p4" type="TaskCompletionSource"></parameter>
+		</method>
+	</add-node>
+
+	<attr path="/api/package[@name='com.huawei.hianalytics.abc.bcd']/class[@name='abc.abc']" name="name">abcPartial</attr>
+	<attr path="/api/package[@name='com.huawei.hianalytics.abc.cde']/interface[@name='bcd']/field[@name='bcd']" name="name">zzgetBcd1</attr>
+	<remove-node path="/api/package[@name='com.huawei.hianalytics.abc.def.abc']/interface[@name='fgh']/method[@name='abc' and count(parameter)=2 and parameter[1][@type='java.lang.String'] and parameter[2][@type='byte[]']]" />
+	<remove-node path="/api/package[@name='com.huawei.hianalytics.abc.def.abc']/interface[@name='fgh']/method[@name='abc' and count(parameter)=2 and parameter[1][@type='java.lang.String'] and parameter[2][@type='java.lang.String']]" />
+	<attr path="/api/package[@name='com.huawei.hianalytics.abc.def.abc']/class[@name='bcd.abc']/field[@name='abc']" name="name">zzgetAbc1</attr>
+	<attr path="/api/package[@name='com.huawei.hianalytics.abc.def.abc']/class[@name='bcd.abc']/field[@name='abc']" name="name">zzgetAbc2</attr>
+	<attr path="/api/package[@name='com.huawei.hianalytics.abc.def.bcd']/class[@name='abc']" name="name">abcPartial2</attr>
+	<attr path="/api/package[@name='com.huawei.hianalytics.abc.def.cde.bcd']/class[@name='abc']/field[@name='abc']" name="name">zzgetAbc3</attr>
+	<attr path="/api/package[@name='com.huawei.hianalytics.abc.def.cde.bcd']/class[@name='bcd']/field[@name='bcd']" name="name">zzgetAbc4</attr>
+	<attr path="/api/package[@name='com.huawei.hianalytics.abc.def.cde.bcd']/class[@name='cde']/field[@name='cde']" name="name">zzgetCde1</attr>
+	<remove-node path="/api/package[@name='com.huawei.hianalytics.abc.def.cde.bcd']/interface[@name='fgh']/method[@name='cde' and count(parameter)=0]" />
+	<attr path="/api/package[@name='com.huawei.hianalytics.abc.def.ikl.bcd']/class[@name='abc']/field[@name='abc']" name="name">zzgetAbc5</attr>
+	<attr path="/api/package[@name='com.huawei.hianalytics.abc.efg.abc']/class[@name='abc.abc']" name="name">abcPartial3</attr>
+
+	<add-node path="/api/package[@name='com.huawei.hianalytics.abc.efg.abc']/class[@name='abc.bcd']">
+		<method name="OnSuccess" return="void" visibility="public" >
+			<parameter name="p0" type="Java.Lang.Object"></parameter>
+		</method>
+	</add-node>
+	
+	<!--<add-node path="/api/package[@name='com.huawei.hms.analytics.abc']/class[@name='bcd.bcd']">
+		<method name="OnSuccess" return="void" visibility="public" >
+			<parameter name="p0" type="Java.Lang.Object"></parameter>
+		</method>
+	</add-node>-->
+
+	<attr path="/api/package[@name='com.huawei.hianalytics.abc.ijk']/class[@name='abc']/field[@name='abc']" name="name">zzgetAbc6</attr>
+	<attr path="/api/package[@name='com.huawei.hms.analytics.abc']/class[@name='abc.abc']" name="name">abcPartial4</attr>
+	<attr path="/api/package[@name='com.huawei.hms.analytics.abc']/class[@name='bcd.bcd']" name="name">bcdPartial1</attr>
+</metadata>
