@@ -19,7 +19,7 @@
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
     <PackOnBuild>true</PackOnBuild>
     <PackageId>HmsUpdate</PackageId>
-    <PackageVersion>2.0.6.301</PackageVersion>
+    <PackageVersion>2.0.6.303</PackageVersion>
     <Authors>Legimi</Authors>
     <Description>Binding</Description>
   </PropertyGroup>
@@ -66,7 +66,7 @@
     </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
-  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
   </Target>

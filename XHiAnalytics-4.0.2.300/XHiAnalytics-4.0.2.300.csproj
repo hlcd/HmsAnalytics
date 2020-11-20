@@ -20,7 +20,7 @@
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
     <PackOnBuild>true</PackOnBuild>
     <PackageId>HMSAnalytics</PackageId>
-    <PackageVersion>4.0.2.301</PackageVersion>
+    <PackageVersion>4.0.2.303</PackageVersion>
     <Authors>Legimi</Authors>
     <Description>Binding for HMS Analytics</Description>
   </PropertyGroup>
@@ -113,7 +113,7 @@
     <LibraryProjectZip Include="Jars\hianalytics-4.0.2.300.aar" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
-  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
   </Target>
